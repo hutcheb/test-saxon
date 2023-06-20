@@ -27,7 +27,7 @@
         encoding="utf-8"
     />
 
-    <xsl:param name="servicesEnumFile" select="unparsed-text('file:///home/missy/dev/sxi/sxi/src/main/java/com/mycompany/app/Opc.Ua.NodeIds.Services.csv')"/>
+    <xsl:param name="servicesEnumFile" select="unparsed-text('Opc.Ua.NodeIds.Services.csv')"/>
 
     <xsl:template match="/">
         <xsl:call-template name="servicesEnumParsing"/>
