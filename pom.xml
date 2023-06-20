@@ -54,9 +54,9 @@
             <transformationSets>
 
               <transformationSet>
-                <dir>src/main/java/com/mycompany/app</dir>
+                <dir>${project.basedir}/src/main/java/com/mycompany/app</dir>
                 <includes>dummy.xml</includes>
-                <stylesheet>src/main/java/com/mycompany/app/opc-services.xsl</stylesheet>
+                <stylesheet>${project.basedir}/src/main/java/com/mycompany/app/opc-services.xsl</stylesheet>
                 <outputDir>${project.build.outputDirectory}</outputDir>
                 <fileMappers>
                   <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.MergeFileMapper">
